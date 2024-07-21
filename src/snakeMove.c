@@ -75,7 +75,6 @@ void refreshFood(WINDOW *win, Food *food, Border border, Dir dir) {
     wrefresh(win);
 }
 
-<<<<<<< HEAD
 int checkCrashWall(WINDOW *win, Snake *snake, Food *food, Border border, Dir dir) {
     //按当前运动方向蛇头即将到达的下一个坐标
     int headx = snake->next->x, heady = snake->next->y;
@@ -166,76 +165,16 @@ int checkEatFood(WINDOW *win, Snake *snake, Food *food, Border border, Dir dir) 
 
     if (headx == food->x && heady == food->y) {
         // 插入一段新蛇头
-=======
-int checkCrashWall(WINDOW *win, Snake *snake, Food *fod, Border border, Dir dir) {
-    Snake *s = snake->next;
-    int headx = s->x;
-    int heady = s->y;
-
-    int isCrashed = 0;
-    if (s->y == 0 && dir == UP)
-        isCrashed = 1;
-    else if (s->y == border.height - 2 && dir == DOWN)
-        isCrashed = 1;
-    else if (s->x == border.width && dir == RIGHT)
-        isCrashed = 1;
-    else if (s->x == 0 && dir == LEFT)
-        isCrashed = 1;
-
-    updateSnake(win, snake, dir);
-
-    // 检查是否碰到自己身体
-    while (s->next) {
-        s = s->next;
-        if (headx == s->next->x && heady == s->next ->y) {
-            //printf("crashed yourself!");
-            return 1;
-        }
-    }
-
-    return isCrashed;
-}
-
-int checkEatFood(WINDOW *win, Snake *snake, Food *food, Border border, Dir dir) {
-    int headx = snake->next->x;
-    int heady = snake->next->y;
-
-    int nextx;
-    int nexty;
-
-    switch (dir) {
-        case UP:
-            heady--;
-            break;
-        case DOWN:
-            heady++;
-            break;
-        case LEFT:
-            headx--;
-            break;
-        case RIGHT:
-            headx++;
-            break;
-    }
-
-    if (headx == food->x && heady == food->y) {
->>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
         Snake *s = (Snake *) malloc(sizeof(Snake));
         s->x = food->x;
         s->y = food->y;
         s->next = snake->next;
         snake->next = s;
 
-<<<<<<< HEAD
         // refresh而不是update因为只需增加一节，不用擦除
         refreshSnake(win, snake, NULL);
 
         updateFood(win, snake, food, border, dir);
-=======
-        refreshSnake(win, snake, NULL);
-
-        refreshFood(win, food, border, dir);
->>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 
         return 1;
     }
