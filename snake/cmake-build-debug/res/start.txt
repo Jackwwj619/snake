@@ -1,0 +1,2 @@
+Press SPACE to start
+Press ESC to quit
