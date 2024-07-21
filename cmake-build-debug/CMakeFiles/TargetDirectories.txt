@@ -1,0 +1,3 @@
+/tmp/tmp.sQOPSIdWS5/cmake-build-debug/CMakeFiles/Snake_self.dir
+/tmp/tmp.sQOPSIdWS5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/tmp.sQOPSIdWS5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
