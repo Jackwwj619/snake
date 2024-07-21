@@ -8,7 +8,11 @@ void init_ncurses() {
     cbreak();
     noecho();
     keypad(stdscr, TRUE);
+<<<<<<< HEAD
     curs_set(0); //隐藏光标
+=======
+    curs_set(0);
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 
 }
 void initWin(WINDOW *win, Snake *snake, Food *food, Border border, Dir dir) {
@@ -101,7 +105,11 @@ WINDOW *createWin(Border *border) {
     border->startx = (COLS - border->width) / 2;      // 计算窗口中心位置的列数
 
     //显示游戏名称和操作提示
+<<<<<<< HEAD
     char *name = "snake self made";
+=======
+    char *name = "snake 1.0";
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
     mvprintw(0, (COLS - strlen(name)) / 2, "%s", name);
     char *message="Press any key continue ...";
     mvprintw(LINES-1,(COLS-strlen(message))/2,message);

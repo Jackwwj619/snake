@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //
 // Created by jackw on 2024/7/20.
 //
@@ -5,15 +6,30 @@
 #include <stdio.h>
 #include "snakeMove.h"
 
+=======
+#include <stdio.h>
+#include "snakeMove.h"
+
+
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 int main() {
     srand((unsigned) time(NULL));
     init_ncurses();
 
+<<<<<<< HEAD
     int speed = 500000;
     Border border;
     Food food;
     Dir dir = RIGHT;
     Snake *snake = (Snake *) malloc(sizeof(Snake));
+=======
+
+    int speed = 5000000;
+    Border border;
+    Food food;
+    Dir dir = RIGHT;
+    Snake *snake = (Snake *) malloc(sizeof(Snake *));
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 
     WINDOW *win = createWin(&border);
     initWin(win, snake, &food, border, dir);
@@ -50,6 +66,9 @@ int main() {
 
     //退出curses模式
     endwin();
+<<<<<<< HEAD
 
     return 0;
+=======
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 }

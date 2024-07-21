@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /tmp/tmp.mWndTV01KL
+=======
+# Install script for directory: /tmp/tmp.sQOPSIdWS5
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +54,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/tmp/tmp.mWndTV01KL/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/tmp/tmp.sQOPSIdWS5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -54,16 +54,27 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /tmp/tmp.mWndTV01KL
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /tmp/tmp.mWndTV01KL/cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = /tmp/tmp.sQOPSIdWS5
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /tmp/tmp.sQOPSIdWS5/cmake-build-debug
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+<<<<<<< HEAD
 all: CMakeFiles/snake-0721.dir/all
+=======
+all: CMakeFiles/Snake_self.dir/all
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,6 +82,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+<<<<<<< HEAD
 clean: CMakeFiles/snake-0721.dir/clean
 .PHONY : clean
 
@@ -99,6 +111,36 @@ snake-0721: CMakeFiles/snake-0721.dir/rule
 CMakeFiles/snake-0721.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake-0721.dir/build.make CMakeFiles/snake-0721.dir/clean
 .PHONY : CMakeFiles/snake-0721.dir/clean
+=======
+clean: CMakeFiles/Snake_self.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Snake_self.dir
+
+# All Build rule for target.
+CMakeFiles/Snake_self.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake_self.dir/build.make CMakeFiles/Snake_self.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake_self.dir/build.make CMakeFiles/Snake_self.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/tmp.sQOPSIdWS5/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Snake_self"
+.PHONY : CMakeFiles/Snake_self.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Snake_self.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.sQOPSIdWS5/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Snake_self.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.sQOPSIdWS5/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Snake_self.dir/rule
+
+# Convenience name for target.
+Snake_self: CMakeFiles/Snake_self.dir/rule
+.PHONY : Snake_self
+
+# clean rule for target.
+CMakeFiles/Snake_self.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake_self.dir/build.make CMakeFiles/Snake_self.dir/clean
+.PHONY : CMakeFiles/Snake_self.dir/clean
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 
 #=============================================================================
 # Special targets to cleanup operation of make.

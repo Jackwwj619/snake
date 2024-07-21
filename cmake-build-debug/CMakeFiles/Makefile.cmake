@@ -36,7 +36,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/CMakeTestCCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeTestCompilerCommon.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeUnixFindMake.cmake"
+<<<<<<< HEAD
   "/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
+=======
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
   "/usr/share/cmake-3.22/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
@@ -77,10 +80,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/Compiler/XL-C-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/XLClang-C-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
+<<<<<<< HEAD
   "/usr/share/cmake-3.22/Modules/FindCurses.cmake"
   "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake"
+=======
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
   "/usr/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
@@ -105,5 +111,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+<<<<<<< HEAD
   "CMakeFiles/snake-0721.dir/DependInfo.cmake"
+=======
+  "CMakeFiles/Snake_self.dir/DependInfo.cmake"
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
   )

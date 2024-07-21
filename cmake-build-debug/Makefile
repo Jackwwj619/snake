@@ -57,10 +57,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /tmp/tmp.mWndTV01KL
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /tmp/tmp.mWndTV01KL/cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = /tmp/tmp.sQOPSIdWS5
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /tmp/tmp.sQOPSIdWS5/cmake-build-debug
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +94,15 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.mWndTV01KL/cmake-build-debug/CMakeFiles /tmp/tmp.mWndTV01KL/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.mWndTV01KL/cmake-build-debug/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.sQOPSIdWS5/cmake-build-debug/CMakeFiles /tmp/tmp.sQOPSIdWS5/cmake-build-debug//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.sQOPSIdWS5/cmake-build-debug/CMakeFiles 0
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 .PHONY : all
 
 # The main clean target
@@ -117,6 +130,7 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named snake-0721
 
 # Build rule for target.
@@ -128,13 +142,30 @@ snake-0721: cmake_check_build_system
 snake-0721/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake-0721.dir/build.make CMakeFiles/snake-0721.dir/build
 .PHONY : snake-0721/fast
+=======
+# Target rules for targets named Snake_self
+
+# Build rule for target.
+Snake_self: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Snake_self
+.PHONY : Snake_self
+
+# fast build rule for target.
+Snake_self/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake_self.dir/build.make CMakeFiles/Snake_self.dir/build
+.PHONY : Snake_self/fast
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
+<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake-0721.dir/build.make CMakeFiles/snake-0721.dir/main.c.o
+=======
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake_self.dir/build.make CMakeFiles/Snake_self.dir/main.c.o
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -142,7 +173,11 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
+<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake-0721.dir/build.make CMakeFiles/snake-0721.dir/main.c.i
+=======
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake_self.dir/build.make CMakeFiles/Snake_self.dir/main.c.i
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -150,6 +185,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
+<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake-0721.dir/build.make CMakeFiles/snake-0721.dir/main.c.s
 .PHONY : main.c.s
 
@@ -201,6 +237,11 @@ src/sys.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake-0721.dir/build.make CMakeFiles/snake-0721.dir/src/sys.c.s
 .PHONY : src/sys.c.s
 
+=======
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake_self.dir/build.make CMakeFiles/Snake_self.dir/main.c.s
+.PHONY : main.c.s
+
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -209,6 +250,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+<<<<<<< HEAD
 	@echo "... snake-0721"
 	@echo "... main.o"
 	@echo "... main.i"
@@ -219,6 +261,12 @@ help:
 	@echo "... src/sys.o"
 	@echo "... src/sys.i"
 	@echo "... src/sys.s"
+=======
+	@echo "... Snake_self"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 .PHONY : help
 
 

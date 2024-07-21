@@ -9,11 +9,14 @@
 #include <stdlib.h>
 #include <string.h>
 
+<<<<<<< HEAD
 typedef struct player {
     char *name;
     int score;
     char *playTime;
 } Player;
+=======
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 
 typedef struct snake {
     int x;
@@ -33,6 +36,7 @@ typedef struct food {
     int y;
     // int score = 5;
 } Food;
+<<<<<<< HEAD
 
 typedef struct food_mouse {
     int x;
@@ -54,6 +58,19 @@ typedef struct obstacle {
 
 
 
+=======
+//
+// typedef struct food_mouse {
+//     int x;
+//     int y;
+//     int score = 2;
+// } Mouse;
+//
+// typedef struct obstacle {
+//     int x;
+//     int y;
+// };
+>>>>>>> 597f789ddbc2fd649a9bd48dd01b9a0b7826938c
 
 typedef struct border {
     int startx;
