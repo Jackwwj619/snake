@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSOURCE_LIB.a CMakeFiles/SOURCE_LIB.dir/main.c.o
+/usr/bin/ranlib libSOURCE_LIB.a

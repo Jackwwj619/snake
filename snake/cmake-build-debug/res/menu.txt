@@ -1,0 +1,3 @@
+Welcome to play our newest product -- snake,which allows you to control a snake
+to eat different food to gain scores so that you can compare your scores with
+others to create a rankings
