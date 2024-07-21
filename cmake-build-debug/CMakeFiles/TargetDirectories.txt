@@ -1,0 +1,3 @@
+/tmp/tmp.mWndTV01KL/cmake-build-debug/CMakeFiles/snake-0721.dir
+/tmp/tmp.mWndTV01KL/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/tmp.mWndTV01KL/cmake-build-debug/CMakeFiles/rebuild_cache.dir

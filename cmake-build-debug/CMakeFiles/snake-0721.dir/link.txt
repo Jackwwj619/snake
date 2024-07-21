@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/snake-0721.dir/src/snakeMove.c.o CMakeFiles/snake-0721.dir/src/sys.c.o CMakeFiles/snake-0721.dir/main.c.o -o snake-0721  -lcurses /usr/lib/x86_64-linux-gnu/libform.so 
