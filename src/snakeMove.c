@@ -1,7 +1,7 @@
 //
 // Created by jackw on 2024/7/20.
 //
-
+//
 #include "snakeMove.h"
 
 //srand((unsigned) time(NULL));
